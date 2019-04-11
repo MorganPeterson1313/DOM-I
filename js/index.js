@@ -40,3 +40,19 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+
+const navItems = document.querySelectorAll("nav");
+console.log(navItems);
+// navItems.textContent = 'Services';
+navItems.style.color = 'green';
+
+
+// navItems.forEach( 
+//   function(siteContent["nav"]["nav-item"][i],navItem, i) { 
+//     navItem.textContent = 'Services','Product','Vision', 'Features', 'About', 'Contact';
+//   });
+
+  // forEach(navItems, function (navItem, [nav-item],navItem, i) {
+  //   console.log(navItem.textContent + 'Services','Product','Vision', 'Features', 'About', 'Contact');
+  // });
